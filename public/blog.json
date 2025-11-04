@@ -4,7 +4,7 @@
     "cover": "banner1.jpg",
     "title": "Mastering Tailwind CSS for Modern UI Design",
     "author": "Sojib Islam",
-    "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
+    "author_img": "profile-pic.png",
     "posted_date": "2025-11-01",
     "reading_time": 6,
     "hashtags": ["#TailwindCSS", "#WebDesign", "#Frontend"]
@@ -14,7 +14,7 @@
     "cover": "banner2.jpg",
     "title": "Why React is Still the King of Frontend Frameworks",
     "author": "Ava Rahman",
-    "author_img": "https://ibb.co/jPGrs8Vz",
+    "author_img": "https://randomuser.me/api/portraits/women/39.jpg",
     "posted_date": "2025-10-28",
     "reading_time": 8,
     "hashtags": ["#ReactJS", "#JavaScript", "#FrontendDev"]
@@ -44,7 +44,7 @@
     "cover": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
     "title": "10 Tips to Improve Your Frontend Projects",
     "author": "Sojib Islam",
-    "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
+    "author_img": "profile-pic.png",
     "posted_date": "2025-09-30",
     "reading_time": 4,
     "hashtags": ["#WebDevelopment", "#FrontendTips", "#Design"]
