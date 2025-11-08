@@ -8,14 +8,15 @@ import { useState } from 'react'
 function App() {
   const [bookmarks, setBookmarks] = useState([])
   const [readingTimes, setReadingTimes] = useState(0)
-
      const handleBlog = blog =>{
        const newBookmark = [...bookmarks, blog]
        setBookmarks(newBookmark)
     }
-   const handleRead = time =>{
+   const handleRead = (title,time) =>{
      const newTime = readingTimes + time
      setReadingTimes(newTime)
+     const remaining = bookmarks.filter(bookmark => title !== bookmark)
+     setBookmarks(remaining)
    }
   return (
     <div className='container mx-auto'>

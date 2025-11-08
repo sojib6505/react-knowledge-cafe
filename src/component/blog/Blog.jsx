@@ -23,7 +23,7 @@ export default function Blog({blog ,handleBlog,handleRead}) {
            <div className="flex gap-2 mt-2 mb-2">
             {blog.hashtags.map(h => <p>{h}</p>)}
            </div>
-            <button onClick={()=>handleRead(reading_time)} className='text-purple-800 underline text-xl mb-2'>Mark as read</button>
+            <button onClick={()=>handleRead(title,reading_time)} className='text-purple-800 underline text-xl mb-2'>Mark as read</button>
         </div>
   )
 }
